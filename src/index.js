@@ -1,9 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-	regexp = /0-9/;
-	t = Boolean('str'.match(regexp));
-	if (t){
-		return false;
-	}
+	
 	arr = {
 		'(':1,
 		')': -1,
